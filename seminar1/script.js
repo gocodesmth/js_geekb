@@ -105,7 +105,24 @@ console.log(hello + world);
 
 // parseFloat & parseInt
 
-let myNum = '9.9';
+// case 1
+let myNum = '9.0';
 
 console.log(parseFloat(myNum));
-typeof
+
+if (parseFloat(myNum) - parseInt(myNum) > 0) {
+    console.log('its float');
+} else {
+    console.log('its int');
+}
+
+// case 2
+myNum = '9.1';
+
+console.log(parseFloat(myNum));
+
+if (parseFloat(myNum) - parseInt(myNum) > 0) {
+    console.log('its float');
+} else {
+    console.log('its int');
+}
