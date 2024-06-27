@@ -102,3 +102,10 @@ let hello = 'hello';
 let world = ' world';
 
 console.log(hello + world);
+
+// parseFloat & parseInt
+
+let myNum = '9.9';
+
+console.log(parseFloat(myNum));
+typeof
