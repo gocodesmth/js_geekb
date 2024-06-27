@@ -74,3 +74,31 @@ console.log(sum);
 // -2-
 a = 2;
 console.log(-a);
+
+// Задание 6.
+
+/*
+1. Создайте строку с вашем именем и строку с вашей фамилией. 
+Выведите эти данные в консоль
+2. Создайте переменную с текстом 'java' и переменную с текстом 
+'script'. С помощью этих переменных и операции сложения строк 
+выведите в консоль строку 'javascript'.
+3. Создайте переменную с текстом 'hello' и переменную с текстом 
+'world'. С помощью этих переменных и операции сложения строк 
+выведите в консоль строку 'hello world'.
+*/
+
+const firstName = 'Sherzod';
+const lastName = 'Jumaev';
+
+console.log(firstName, lastName);
+
+let firstWord = 'java';
+let secondWord = 'script';
+
+console.log(firstWord + secondWord);
+
+let hello = 'hello';
+let world = ' world';
+
+console.log(hello + world);
