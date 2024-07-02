@@ -8,11 +8,11 @@
 5. Вывести на экран, Добро пожаловать на сайт “Имя 
 пользователя
 */
-let userAge = (prompt("Введити ваш возраст:"))
-alert(`Вам ${userAge} лет`);
+// let userAge = (prompt("Введити ваш возраст:"))
+// alert(`Вам ${userAge} лет`);
 
-let userName = (prompt("Введити ваше имя:"))
-alert(`Добро пожаловать на сайт ${userName}`);
+// let userName = (prompt("Введити ваше имя:"))
+// alert(`Добро пожаловать на сайт ${userName}`);
 
 // Задание 2
 /*
@@ -32,3 +32,17 @@ b. alert(-1 / 0);
 a. alert('2' * '3');
 
 */
+
+let a = 13;
+let b = 5;
+console.log(a % b);
+
+let c;
+alert(c); //undefined
+
+alert('abc' * 3); // NaN
+
+alert(1 / 0); // Infinity
+alert(-1 / 0); // -Infinity
+
+alert('2' * '3'); // 6
